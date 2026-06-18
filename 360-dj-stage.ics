@@ -1,8 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Fest Egnen 2025//360 DJ Stage//DA
-X-WR-CALNAME:🎧 360 DJ Stage – Fest Egnen 2025
-X-WR-CALDESC:360 DJ Stage programmet for Fest Egnen 19-20 juni 2025
+PRODID:-//Fest Egnen 2026//360 DJ Stage//DA
+X-WR-CALNAME:🎧 360 DJ Stage – Fest Egnen 2026
+X-WR-CALDESC:360 DJ Stage programmet for Fest Egnen 19-20 juni 2026
 X-WR-TIMEZONE:Europe/Copenhagen
 X-APPLE-CALENDAR-COLOR:#1B3A6B
 COLOR:navy
@@ -22,73 +22,73 @@ DTSTART:19701025T030000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:festegnen2025-360-fri-laidbackluke@festegnen
+UID:festegnen2026-360-fri-laidbackluke@festegnen
 SUMMARY:Laidback Luke – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250619T161500
-DTEND;TZID=Europe/Copenhagen:20250619T171000
+DTSTART;TZID=Europe/Copenhagen:20260619T161500
+DTEND;TZID=Europe/Copenhagen:20260619T171000
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-fri-sigala@festegnen
+UID:festegnen2026-360-fri-sigala@festegnen
 SUMMARY:Sigala – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250619T183000
-DTEND;TZID=Europe/Copenhagen:20250619T191500
+DTSTART;TZID=Europe/Copenhagen:20260619T183000
+DTEND;TZID=Europe/Copenhagen:20260619T191500
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-fri-paulvandyk@festegnen
+UID:festegnen2026-360-fri-paulvandyk@festegnen
 SUMMARY:Paul van Dyk – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250619T204000
-DTEND;TZID=Europe/Copenhagen:20250619T214000
+DTSTART;TZID=Europe/Copenhagen:20260619T204000
+DTEND;TZID=Europe/Copenhagen:20260619T214000
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-fri-atb@festegnen
+UID:festegnen2026-360-fri-atb@festegnen
 SUMMARY:ATB – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250619T231000
-DTEND;TZID=Europe/Copenhagen:20250619T235500
+DTSTART;TZID=Europe/Copenhagen:20260619T231000
+DTEND;TZID=Europe/Copenhagen:20260619T235500
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-sat-dj4gaard@festegnen
+UID:festegnen2026-360-sat-dj4gaard@festegnen
 SUMMARY:DJ 4Gaard – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250620T110000
-DTEND;TZID=Europe/Copenhagen:20250620T120000
+DTSTART;TZID=Europe/Copenhagen:20260620T110000
+DTEND;TZID=Europe/Copenhagen:20260620T120000
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-sat-jaxstyle@festegnen
+UID:festegnen2026-360-sat-jaxstyle@festegnen
 SUMMARY:Jaxstyle – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250620T140500
-DTEND;TZID=Europe/Copenhagen:20250620T145000
+DTSTART;TZID=Europe/Copenhagen:20260620T140500
+DTEND;TZID=Europe/Copenhagen:20260620T145000
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-sat-darude@festegnen
+UID:festegnen2026-360-sat-darude@festegnen
 SUMMARY:Darude – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250620T162000
-DTEND;TZID=Europe/Copenhagen:20250620T170500
+DTSTART;TZID=Europe/Copenhagen:20260620T162000
+DTEND;TZID=Europe/Copenhagen:20260620T170500
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-sat-kato@festegnen
+UID:festegnen2026-360-sat-kato@festegnen
 SUMMARY:Kato – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250620T183500
-DTEND;TZID=Europe/Copenhagen:20250620T192000
+DTSTART;TZID=Europe/Copenhagen:20260620T183500
+DTEND;TZID=Europe/Copenhagen:20260620T192000
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-sat-armandvanhelden@festegnen
+UID:festegnen2026-360-sat-armandvanhelden@festegnen
 SUMMARY:Armand van Helden – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250620T205000
-DTEND;TZID=Europe/Copenhagen:20250620T215000
+DTSTART;TZID=Europe/Copenhagen:20260620T205000
+DTEND;TZID=Europe/Copenhagen:20260620T215000
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2025-360-sat-faustix@festegnen
+UID:festegnen2026-360-sat-faustix@festegnen
 SUMMARY:Faustix – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20250620T231500
-DTEND;TZID=Europe/Copenhagen:20250620T235500
+DTSTART;TZID=Europe/Copenhagen:20260620T231500
+DTEND;TZID=Europe/Copenhagen:20260620T235500
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 END:VCALENDAR
