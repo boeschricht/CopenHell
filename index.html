@@ -117,6 +117,25 @@
 
     .info strong { display: block; margin-bottom: 0.3rem; font-size: 1rem; }
 
+    .info ol {
+      padding-left: 1.3rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0;
+    }
+
+    .info ol li {
+      margin-bottom: 0.3rem;
+    }
+
+    .info code {
+      background: rgba(255,255,255,0.2);
+      border-radius: 5px;
+      padding: 0.1rem 0.4rem;
+      font-size: 0.82rem;
+      font-family: monospace;
+      word-break: break-all;
+    }
+
     footer {
       text-align: center;
       margin-top: 2.5rem;
@@ -189,12 +208,26 @@
 </div>
 
 <div class="info">
-  <strong>Sådan tilføjer du på iPhone</strong>
-  Tryk på "Tilføj til kalender" – iPhone åbner automatisk Kalender-appen og beder om bekræftelse.
-  Du kan tilføje alle 4 scener for det fulde overblik. Hver scene får sin egen farve.
+  <strong>📱 Nemmest på iPhone – tryk på knappen</strong>
+  Tryk på "➕ Tilføj til kalender" – iPhone åbner automatisk Kalender-appen og beder om bekræftelse. Du kan tilføje alle 4 scener for det fulde overblik. Hver scene får sin egen farve.
+
   <br><br>
-  <strong>Android / andet</strong>
-  Brug "Download .ics" og importer filen manuelt i Google Kalender eller lignende.
+  <strong>📅 Manuelt abonnement via Indstillinger (iPhone)</strong>
+  Brug denne metode, hvis knappen ikke virker, eller du vil abonnere på linket direkte:
+  <ol>
+    <li>Åbn <strong>Indstillinger</strong> på din iPhone</li>
+    <li>Tryk på <strong>Kalender</strong></li>
+    <li>Tryk på <strong>Konti</strong> → <strong>Tilføj konto</strong></li>
+    <li>Vælg <strong>Andet</strong> → <strong>Tilføj abonnementskalender</strong></li>
+    <li>Indsæt URL'en på den scene du vil tilføje, f.eks.:<br>
+      <code>https://boeschricht.github.io/Festegnen/live-stage.ics</code>
+    </li>
+    <li>Tryk <strong>Næste</strong> og bekræft med <strong>Tilføj</strong></li>
+  </ol>
+
+  <br>
+  <strong>🤖 Android / Google Kalender</strong>
+  Brug "Download .ics" og importer filen manuelt i Google Kalender under <em>Andre kalendere → Importer</em>.
 </div>
 
 <footer>

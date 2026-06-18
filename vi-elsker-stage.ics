@@ -87,8 +87,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festegnen2026-vel-fri-basshunter@festegnen
 SUMMARY:Basshunter – Vi Elsker Stage
-DTSTART;TZID=Europe/Copenhagen:20260619T195000
-DTEND;TZID=Europe/Copenhagen:20260619T202600
+DTSTART;TZID=Europe/Copenhagen:20260619T195500
+DTEND;TZID=Europe/Copenhagen:20260619T202500
 LOCATION:Fest Egnen – Vi Elsker Stage
 END:VEVENT
 BEGIN:VEVENT
@@ -157,29 +157,29 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festegnen2026-vel-sat-daisydee@festegnen
 SUMMARY:Daisy Dee – Technotronic – Vi Elsker Stage
-DTSTART;TZID=Europe/Copenhagen:20260620T122500
-DTEND;TZID=Europe/Copenhagen:20260620T124500
+DTSTART;TZID=Europe/Copenhagen:20260620T123000
+DTEND;TZID=Europe/Copenhagen:20260620T125000
 LOCATION:Fest Egnen – Vi Elsker Stage
 END:VEVENT
 BEGIN:VEVENT
 UID:festegnen2026-vel-sat-oestkysthustlers@festegnen
 SUMMARY:Østkyst Hustlers – Vi Elsker Stage
-DTSTART;TZID=Europe/Copenhagen:20260620T131000
-DTEND;TZID=Europe/Copenhagen:20260620T135500
+DTSTART;TZID=Europe/Copenhagen:20260620T132000
+DTEND;TZID=Europe/Copenhagen:20260620T140500
 LOCATION:Fest Egnen – Vi Elsker Stage
 END:VEVENT
 BEGIN:VEVENT
 UID:festegnen2026-vel-sat-ozone@festegnen
 SUMMARY:O-Zone – Vi Elsker Stage
-DTSTART;TZID=Europe/Copenhagen:20260620T140500
-DTEND;TZID=Europe/Copenhagen:20260620T142500
+DTSTART;TZID=Europe/Copenhagen:20260620T125500
+DTEND;TZID=Europe/Copenhagen:20260620T131000
 LOCATION:Fest Egnen – Vi Elsker Stage
 END:VEVENT
 BEGIN:VEVENT
 UID:festegnen2026-vel-sat-blaoejne@festegnen
 SUMMARY:Blå Øjne & Drømhus – Vi Elsker Stage
-DTSTART;TZID=Europe/Copenhagen:20260620T143000
-DTEND;TZID=Europe/Copenhagen:20260620T150500
+DTSTART;TZID=Europe/Copenhagen:20260620T141000
+DTEND;TZID=Europe/Copenhagen:20260620T144500
 LOCATION:Fest Egnen – Vi Elsker Stage
 END:VEVENT
 BEGIN:VEVENT
@@ -187,6 +187,13 @@ UID:festegnen2026-vel-sat-snow@festegnen
 SUMMARY:Snow – Vi Elsker Stage
 DTSTART;TZID=Europe/Copenhagen:20260620T151500
 DTEND;TZID=Europe/Copenhagen:20260620T153000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2026-vel-sat-djskoge2@festegnen
+SUMMARY:DJ Skoge – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20260620T153500
+DTEND;TZID=Europe/Copenhagen:20260620T155500
 LOCATION:Fest Egnen – Vi Elsker Stage
 END:VEVENT
 BEGIN:VEVENT

@@ -50,13 +50,6 @@ DTEND;TZID=Europe/Copenhagen:20260619T235500
 LOCATION:Fest Egnen – 360 DJ Stage
 END:VEVENT
 BEGIN:VEVENT
-UID:festegnen2026-360-sat-dj4gaard@festegnen
-SUMMARY:DJ 4Gaard – 360 DJ Stage
-DTSTART;TZID=Europe/Copenhagen:20260620T110000
-DTEND;TZID=Europe/Copenhagen:20260620T120000
-LOCATION:Fest Egnen – 360 DJ Stage
-END:VEVENT
-BEGIN:VEVENT
 UID:festegnen2026-360-sat-jaxstyle@festegnen
 SUMMARY:Jaxstyle – 360 DJ Stage
 DTSTART;TZID=Europe/Copenhagen:20260620T140500
