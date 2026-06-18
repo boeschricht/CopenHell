@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fest Egnen 2025 – Kalender</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #1A5CCC;
+      min-height: 100vh;
+      padding: 2rem 1rem 3rem;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+
+    .dates {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0.8rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .card {
+      border-radius: 18px;
+      padding: 1.5rem 1.5rem 1.3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    .card-live    { background: #E8192C; }
+    .card-360     { background: #1B3A6B; border: 2px solid rgba(255,255,255,0.2); }
+    .card-vielsker{ background: #FF5BAE; }
+    .card-bodega  { background: #E87722; }
+
+    .card-icon { font-size: 2rem; }
+
+    .card h2 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      line-height: 1.1;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      opacity: 0.9;
+      line-height: 1.4;
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      background: rgba(255,255,255,0.25);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0.7rem 1rem;
+      border-radius: 10px;
+      margin-top: 0.3rem;
+      transition: background 0.15s;
+    }
+
+    .btn:hover, .btn:active {
+      background: rgba(255,255,255,0.4);
+    }
+
+    .btn-secondary {
+      background: rgba(0,0,0,0.15);
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+
+    .info {
+      max-width: 900px;
+      margin: 2rem auto 0;
+      background: rgba(0,0,0,0.2);
+      border-radius: 14px;
+      padding: 1.2rem 1.5rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .info strong { display: block; margin-bottom: 0.3rem; font-size: 1rem; }
+
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fest Egnen</h1>
+  <div class="dates">
+    <span>📅 Fredag 19. juni</span>
+    <span>📅 Lørdag 20. juni 2025</span>
+  </div>
+  <p>Tilføj programmet direkte til din kalender – opdelt per scene</p>
+</header>
+
+<div class="cards">
+
+  <div class="card card-live">
+    <div class="card-icon">🎤</div>
+    <h2>Live Stage</h2>
+    <p>Black Eyed Peas, Faithless, Scooter, Infernal og mange flere</p>
+    <a class="btn" href="webcal://raw.githubusercontent.com/boeschricht/Festegnen/main/live-stage.ics">
+      ➕ Tilføj til kalender
+    </a>
+    <a class="btn btn-secondary" href="https://raw.githubusercontent.com/boeschricht/Festegnen/main/live-stage.ics">
+      Download .ics
+    </a>
+  </div>
+
+  <div class="card card-360">
+    <div class="card-icon">🎧</div>
+    <h2>360 DJ Stage</h2>
+    <p>Darude, Armand van Helden, Paul van Dyk, Sigala og flere</p>
+    <a class="btn" href="webcal://raw.githubusercontent.com/boeschricht/Festegnen/main/360-dj-stage.ics">
+      ➕ Tilføj til kalender
+    </a>
+    <a class="btn btn-secondary" href="https://raw.githubusercontent.com/boeschricht/Festegnen/main/360-dj-stage.ics">
+      Download .ics
+    </a>
+  </div>
+
+  <div class="card card-vielsker">
+    <div class="card-icon">💕</div>
+    <h2>Vi Elsker Stage</h2>
+    <p>Cascada, Sophie Ellis-Bextor, Basshunter, Vengaboys og masser mere</p>
+    <a class="btn" href="webcal://raw.githubusercontent.com/boeschricht/Festegnen/main/vi-elsker-stage.ics">
+      ➕ Tilføj til kalender
+    </a>
+    <a class="btn btn-secondary" href="https://raw.githubusercontent.com/boeschricht/Festegnen/main/vi-elsker-stage.ics">
+      Download .ics
+    </a>
+  </div>
+
+  <div class="card card-bodega">
+    <div class="card-icon">🍺</div>
+    <h2>Bodega Royal</h2>
+    <p>Rasmus Bjerg, Jørgen de Mylius, Clemens, Karaoke og meget mere</p>
+    <a class="btn" href="webcal://raw.githubusercontent.com/boeschricht/Festegnen/main/bodega-royal.ics">
+      ➕ Tilføj til kalender
+    </a>
+    <a class="btn btn-secondary" href="https://raw.githubusercontent.com/boeschricht/Festegnen/main/bodega-royal.ics">
+      Download .ics
+    </a>
+  </div>
+
+</div>
+
+<div class="info">
+  <strong>Sådan tilføjer du på iPhone</strong>
+  Tryk på "Tilføj til kalender" – iPhone åbner automatisk Kalender-appen og beder om bekræftelse.
+  Du kan tilføje alle 4 scener for det fulde overblik. Hver scene får sin egen farve.
+  <br><br>
+  <strong>Android / andet</strong>
+  Brug "Download .ics" og importer filen manuelt i Google Kalender eller lignende.
+</div>
+
+<footer>
+  Fest Egnen 2025 · Kalender genereret automatisk ud fra det officielle program
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,290 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fest Egnen 2025//Vi Elsker Stage//DA
+X-WR-CALNAME:💕 Vi Elsker Stage – Fest Egnen 2025
+X-WR-CALDESC:Vi Elsker Stage programmet for Fest Egnen 19-20 juni 2025
+X-WR-TIMEZONE:Europe/Copenhagen
+X-APPLE-CALENDAR-COLOR:#FF5BAE
+COLOR:pink
+BEGIN:VTIMEZONE
+TZID:Europe/Copenhagen
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-djwallin@festegnen
+SUMMARY:DJ Wallin – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T140000
+DTEND;TZID=Europe/Copenhagen:20250619T150000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-djrose@festegnen
+SUMMARY:DJ Rosé – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T153000
+DTEND;TZID=Europe/Copenhagen:20250619T161500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-vengaboys@festegnen
+SUMMARY:Vengaboys – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T161500
+DTEND;TZID=Europe/Copenhagen:20250619T164000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-lasgo@festegnen
+SUMMARY:Lasgo – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T164500
+DTEND;TZID=Europe/Copenhagen:20250619T170500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-djskoge@festegnen
+SUMMARY:DJ Skoge – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T170500
+DTEND;TZID=Europe/Copenhagen:20250619T173500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-djrenter@festegnen
+SUMMARY:DJ Renter – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T174000
+DTEND;TZID=Europe/Copenhagen:20250619T181000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-barcodebrothers@festegnen
+SUMMARY:Barcode Brothers – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T183500
+DTEND;TZID=Europe/Copenhagen:20250619T190000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-djsorenhaahr@festegnen
+SUMMARY:DJ Søren Haahr – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T190500
+DTEND;TZID=Europe/Copenhagen:20250619T193000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-deedee@festegnen
+SUMMARY:Dee Dee – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T193500
+DTEND;TZID=Europe/Copenhagen:20250619T195000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-basshunter@festegnen
+SUMMARY:Basshunter – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T195000
+DTEND;TZID=Europe/Copenhagen:20250619T202500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-sylver@festegnen
+SUMMARY:Sylver – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T203000
+DTEND;TZID=Europe/Copenhagen:20250619T205000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-danzel@festegnen
+SUMMARY:Danzel – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T205500
+DTEND;TZID=Europe/Copenhagen:20250619T211500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-paulelstak@festegnen
+SUMMARY:Paul Elstak – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T212000
+DTEND;TZID=Europe/Copenhagen:20250619T220500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-ianvandahl@festegnen
+SUMMARY:Ian Van Dahl – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T223000
+DTEND;TZID=Europe/Copenhagen:20250619T225500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-pedeb@festegnen
+SUMMARY:Pede B – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T230000
+DTEND;TZID=Europe/Copenhagen:20250619T233500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-fri-dantethomas@festegnen
+SUMMARY:Dante Thomas – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250619T233500
+DTEND;TZID=Europe/Copenhagen:20250619T235500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-playliste@festegnen
+SUMMARY:Playliste – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T110000
+DTEND;TZID=Europe/Copenhagen:20250620T113000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-djrenter@festegnen
+SUMMARY:DJ Renter – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T113000
+DTEND;TZID=Europe/Copenhagen:20250620T120000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-mrpresident@festegnen
+SUMMARY:Mr. President – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T120000
+DTEND;TZID=Europe/Copenhagen:20250620T122000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-daisydee@festegnen
+SUMMARY:Daisy Dee – Technotronic – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T122500
+DTEND;TZID=Europe/Copenhagen:20250620T124500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-oestkysthustlers@festegnen
+SUMMARY:Østkyst Hustlers – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T131000
+DTEND;TZID=Europe/Copenhagen:20250620T135500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-ozone@festegnen
+SUMMARY:O-Zone – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T140500
+DTEND;TZID=Europe/Copenhagen:20250620T142500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-blaoejne@festegnen
+SUMMARY:Blå Øjne & Drømhus – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T143000
+DTEND;TZID=Europe/Copenhagen:20250620T150500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-snow@festegnen
+SUMMARY:Snow – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T151500
+DTEND;TZID=Europe/Copenhagen:20250620T153000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-natalieimbruglia@festegnen
+SUMMARY:Natalie Imbruglia – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T160000
+DTEND;TZID=Europe/Copenhagen:20250620T163000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-sophieellisbextor@festegnen
+SUMMARY:Sophie Ellis-Bextor – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T164500
+DTEND;TZID=Europe/Copenhagen:20250620T171500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-giorgioprezioso@festegnen
+SUMMARY:Giorgio Prezioso – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T172000
+DTEND;TZID=Europe/Copenhagen:20250620T180000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-8ball@festegnen
+SUMMARY:8Ball – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T180000
+DTEND;TZID=Europe/Copenhagen:20250620T183500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-svenstrupvendelboe@festegnen
+SUMMARY:Svenstrup og Vendelboe + DJ Encore & Nadia Malm – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T184500
+DTEND;TZID=Europe/Copenhagen:20250620T191000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-snap@festegnen
+SUMMARY:Snap! – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T191500
+DTEND;TZID=Europe/Copenhagen:20250620T193500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-loona@festegnen
+SUMMARY:Loona – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T194000
+DTEND;TZID=Europe/Copenhagen:20250620T200000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-dariovonsluty@festegnen
+SUMMARY:Dario von Slutty – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T201000
+DTEND;TZID=Europe/Copenhagen:20250620T203000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-italobrothers@festegnen
+SUMMARY:Italobrothers – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T203000
+DTEND;TZID=Europe/Copenhagen:20250620T210000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-bro@festegnen
+SUMMARY:Bro – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T210500
+DTEND;TZID=Europe/Copenhagen:20250620T213000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-dj4gaard2@festegnen
+SUMMARY:DJ 4Gaard – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T213000
+DTEND;TZID=Europe/Copenhagen:20250620T215500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-djsorenhaahr@festegnen
+SUMMARY:DJ Søren Haahr – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T215500
+DTEND;TZID=Europe/Copenhagen:20250620T222000
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-hampenberg@festegnen
+SUMMARY:Hampenberg x Alexander Brown x Yepha – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T224000
+DTEND;TZID=Europe/Copenhagen:20250620T231500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-vel-sat-cascada@festegnen
+SUMMARY:Cascada – Vi Elsker Stage
+DTSTART;TZID=Europe/Copenhagen:20250620T232000
+DTEND;TZID=Europe/Copenhagen:20250620T235500
+LOCATION:Fest Egnen – Vi Elsker Stage
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fest Egnen 2025//Bodega Royal//DA
+X-WR-CALNAME:🍺 Bodega Royal – Fest Egnen 2025
+X-WR-CALDESC:Bodega Royal programmet for Fest Egnen 19-20 juni 2025
+X-WR-TIMEZONE:Europe/Copenhagen
+X-APPLE-CALENDAR-COLOR:#E87722
+COLOR:orange
+BEGIN:VTIMEZONE
+TZID:Europe/Copenhagen
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-bodegabangers@festegnen
+SUMMARY:Bodega Bangers og Rafling – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T150000
+DTEND;TZID=Europe/Copenhagen:20250619T160000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-jorgendemylius@festegnen
+SUMMARY:Jørgen de Mylius – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T161500
+DTEND;TZID=Europe/Copenhagen:20250619T171500
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-harskehubbi@festegnen
+SUMMARY:Harske Hubbi – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T173000
+DTEND;TZID=Europe/Copenhagen:20250619T183000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-christianbrons@festegnen
+SUMMARY:Christian Brøns – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T190000
+DTEND;TZID=Europe/Copenhagen:20250619T194500
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-karaoke@festegnen
+SUMMARY:Karaoke med André & Speciel Gæst – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T195000
+DTEND;TZID=Europe/Copenhagen:20250619T205000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-rasmusbjerg@festegnen
+SUMMARY:Rasmus Bjerg – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T210000
+DTEND;TZID=Europe/Copenhagen:20250619T221500
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-fri-tommyseemanband@festegnen
+SUMMARY:Tommy Seeman Band – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250619T224500
+DTEND;TZID=Europe/Copenhagen:20250619T234500
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-faxekondibingo@festegnen
+SUMMARY:Faxe Kondi Bingo – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T123000
+DTEND;TZID=Europe/Copenhagen:20250620T134500
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-ekspressen@festegnen
+SUMMARY:Ekspressen – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T140000
+DTEND;TZID=Europe/Copenhagen:20250620T150000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-pubquiz@festegnen
+SUMMARY:Pub Quiz om Vestegnen med Andre Bentsen – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T160000
+DTEND;TZID=Europe/Copenhagen:20250620T170000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-tommyseemanband@festegnen
+SUMMARY:Tommy Seeman Band – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T173000
+DTEND;TZID=Europe/Copenhagen:20250620T190000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-clemens@festegnen
+SUMMARY:Clemens – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T194500
+DTEND;TZID=Europe/Copenhagen:20250620T200500
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-karaoke@festegnen
+SUMMARY:Karaoke med André & Speciel Gæst – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T201000
+DTEND;TZID=Europe/Copenhagen:20250620T213000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+BEGIN:VEVENT
+UID:festegnen2025-br-sat-80erdisco@festegnen
+SUMMARY:80'er Disco med DJ Amondsen – Bodega Royal
+DTSTART;TZID=Europe/Copenhagen:20250620T220000
+DTEND;TZID=Europe/Copenhagen:20250620T230000
+LOCATION:Fest Egnen – Bodega Royal
+END:VEVENT
+END:VCALENDAR
