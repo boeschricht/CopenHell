@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CopenHell 2026//Program//DA
+X-WR-CALNAME:🤘 CopenHell 2026
+X-WR-CALDESC:CopenHell 2026 – Onsdag 24. juni og Fredag 26. juni
+X-WR-TIMEZONE:Europe/Copenhagen
+X-APPLE-CALENDAR-COLOR:#CC0000
+COLOR:red
+BEGIN:VTIMEZONE
+TZID:Europe/Copenhagen
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:copenhell2026-wed-alicecooper@copenhell
+SUMMARY:Alice Cooper – Helvíti
+DTSTART;TZID=Europe/Copenhagen:20260624T180000
+DTEND;TZID=Europe/Copenhagen:20260624T191500
+LOCATION:CopenHell 2026 – Helvíti
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-wed-suicidaltendencies@copenhell
+SUMMARY:Suicidal Tendencies – Hades
+DTSTART;TZID=Europe/Copenhagen:20260624T193000
+DTEND;TZID=Europe/Copenhagen:20260624T203000
+LOCATION:CopenHell 2026 – Hades
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-wed-ironmaiden@copenhell
+SUMMARY:Iron Maiden – Helvíti
+DTSTART;TZID=Europe/Copenhagen:20260624T210000
+DTEND;TZID=Europe/Copenhagen:20260624T230000
+LOCATION:CopenHell 2026 – Helvíti
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-fri-defecto@copenhell
+SUMMARY:Defecto – Hades
+DTSTART;TZID=Europe/Copenhagen:20260626T123000
+DTEND;TZID=Europe/Copenhagen:20260626T131500
+LOCATION:CopenHell 2026 – Hades
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-fri-trivium@copenhell
+SUMMARY:Trivium – Helvíti
+DTSTART;TZID=Europe/Copenhagen:20260626T160000
+DTEND;TZID=Europe/Copenhagen:20260626T170000
+LOCATION:CopenHell 2026 – Helvíti
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-fri-pod@copenhell
+SUMMARY:P.O.D. – Hades
+DTSTART;TZID=Europe/Copenhagen:20260626T171500
+DTEND;TZID=Europe/Copenhagen:20260626T181500
+LOCATION:CopenHell 2026 – Hades
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-fri-morild@copenhell
+SUMMARY:Morild – Gehenna
+DTSTART;TZID=Europe/Copenhagen:20260626T203000
+DTEND;TZID=Europe/Copenhagen:20260626T213000
+LOCATION:CopenHell 2026 – Gehenna
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-fri-15yearsinhelallstarshow@copenhell
+SUMMARY:15 Years in Hell All Star Show – Helvíti
+DTSTART;TZID=Europe/Copenhagen:20260626T213000
+DTEND;TZID=Europe/Copenhagen:20260626T230000
+LOCATION:CopenHell 2026 – Helvíti
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
+UID:copenhell2026-fri-anthrax@copenhell
+SUMMARY:Anthrax – Hades
+DTSTART;TZID=Europe/Copenhagen:20260626T231500
+DTEND;TZID=Europe/Copenhagen:20260627T004500
+LOCATION:CopenHell 2026 – Hades
+COLOR:red
+END:VEVENT
+END:VCALENDAR
