@@ -22,6 +22,14 @@ DTSTART:19701025T030000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:copenhell2026-wed-tommorello@copenhell
+SUMMARY:Tom Morello – Helvíti
+DTSTART;TZID=Europe/Copenhagen:20260624T153000
+DTEND;TZID=Europe/Copenhagen:20260624T163000
+LOCATION:CopenHell 2026 – Helvíti
+COLOR:red
+END:VEVENT
+BEGIN:VEVENT
 UID:copenhell2026-wed-alicecooper@copenhell
 SUMMARY:Alice Cooper – Helvíti
 DTSTART;TZID=Europe/Copenhagen:20260624T180000

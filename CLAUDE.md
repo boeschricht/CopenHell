@@ -71,6 +71,7 @@ SPOTIFY_CLIENT_ID=... SPOTIFY_CLIENT_SECRET=... python3 CreateCopenhellPlaylist.
 ## Program
 
 ### Onsdag 24. juni
+- 15:30–16:30 · Tom Morello – Helvíti
 - 18:00–19:15 · Alice Cooper – Helvíti
 - 19:30–20:30 · Suicidal Tendencies – Hades
 - 21:00–23:00 · Iron Maiden – Helvíti
