@@ -66,7 +66,7 @@ def get_top_tracks(token, band_name):
     r.raise_for_status()
     items = r.json()["tracks"]["items"]
     band_lower = band_name.lower().replace(".", "")
-    items = [t for t in items if any(band_lower in a["name"].lower().replace(".", "") for a in t["artists"])]
+    items = [t for t in items if band_lower in t["artists"][0]["name"].lower().replace(".", "")]
     if not items:
         print(f"  [{band_name}] Ikke fundet på Spotify – springer over")
         return []
