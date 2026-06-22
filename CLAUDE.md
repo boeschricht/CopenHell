@@ -29,7 +29,14 @@ pip3 install spotipy
 
 ### Credentials
 
-Scriptet bruger hardcodede Spotify API-credentials (Client ID + Secret). Disse er oprettet på [developer.spotify.com](https://developer.spotify.com/dashboard) og hører til en privat app. **Repositoriet skal forblive privat** da credentials ligger i koden.
+Scriptet læser credentials fra miljøvariabler:
+
+```
+export SPOTIFY_CLIENT_ID=...
+export SPOTIFY_CLIENT_SECRET=...
+```
+
+Disse er oprettet på [developer.spotify.com](https://developer.spotify.com/dashboard).
 
 ### Spotify-app konfiguration
 
@@ -52,7 +59,7 @@ Efterfølgende kørsler bruger det cachede token automatisk.
 ### Kør scriptet
 
 ```
-python3 CreateCopenhellPlaylist.py
+SPOTIFY_CLIENT_ID=... SPOTIFY_CLIENT_SECRET=... python3 CreateCopenhellPlaylist.py
 ```
 
 ### Kendte begrænsninger (Spotify Development Mode)

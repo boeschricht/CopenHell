@@ -1,11 +1,12 @@
+import os
 import re
 import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 ICS_URL = "https://boeschricht.github.io/CopenHell/copenhell.ics"
-CLIENT_ID = "8657e8eb4f624dd1b49f9e32f00ef4af"
-CLIENT_SECRET = "871b7ae391414841a506d420149a4658"
+CLIENT_ID = os.environ["SPOTIFY_CLIENT_ID"]
+CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
 REDIRECT_URI = "http://127.0.0.1:8888/callback"
 PLAYLIST_NAME = "Copenhell favorites"
 TRACKS_PER_ARTIST = 3
