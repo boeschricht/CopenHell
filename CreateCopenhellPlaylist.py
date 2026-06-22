@@ -47,17 +47,29 @@ def get_or_create_playlist(sp, user_id):
 
 def get_top_track_uris(token, band_name):
     search_name = band_name.replace(".", "")
+    band_lower = band_name.lower().replace(".", "")
+
     r = requests.get(
         "https://api.spotify.com/v1/search",
-        params={"q": f"artist:{search_name}", "type": "track", "limit": 10},
+        params={"q": search_name, "type": "artist", "limit": 5},
         headers={"Authorization": f"Bearer {token}"},
     )
     r.raise_for_status()
-    items = r.json()["tracks"]["items"]
-    band_lower = band_name.lower()
-    items = [t for t in items if any(band_lower in a["name"].lower() for a in t["artists"])]
-    if not items:
+    artists = [a for a in r.json()["artists"]["items"] if band_lower in a["name"].lower().replace(".", "")]
+    if not artists:
         print(f"  [{band_name}] Ikke fundet på Spotify – springer over")
+        return []
+    artist_id = artists[0]["id"]
+
+    r2 = requests.get(
+        "https://api.spotify.com/v1/search",
+        params={"q": search_name, "type": "track", "limit": 10},
+        headers={"Authorization": f"Bearer {token}"},
+    )
+    r2.raise_for_status()
+    items = [t for t in r2.json()["tracks"]["items"] if t["artists"][0]["id"] == artist_id]
+    if not items:
+        print(f"  [{band_name}] Ingen egne tracks fundet – springer over")
         return []
     items.sort(key=lambda t: t.get("popularity", 0), reverse=True)
     seen, unique = set(), []
