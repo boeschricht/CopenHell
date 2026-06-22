@@ -38,10 +38,10 @@ LOCATION:CopenHell 2026 – Helvíti
 COLOR:red
 END:VEVENT
 BEGIN:VEVENT
-UID:copenhell2026-wed-suicidaltendencies@copenhell
-SUMMARY:Suicidal Tendencies – Hades
-DTSTART;TZID=Europe/Copenhagen:20260624T193000
-DTEND;TZID=Europe/Copenhagen:20260624T203000
+UID:copenhell2026-wed-mammoth@copenhell
+SUMMARY:Mammoth – Hades
+DTSTART;TZID=Europe/Copenhagen:20260624T140000
+DTEND;TZID=Europe/Copenhagen:20260624T150000
 LOCATION:CopenHell 2026 – Hades
 COLOR:red
 END:VEVENT
