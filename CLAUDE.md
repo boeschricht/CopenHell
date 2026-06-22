@@ -17,6 +17,50 @@ ICS-filerne skal serveres fra GitHub Pages (ikke `raw.githubusercontent.com`), d
 
 `webcal://`-links bruges til "Tilføj til kalender"-knapperne — disse åbner direkte i kalender-appen på iOS/macOS. Download-links bruger `https://` til manuel import (Android/Google Kalender).
 
+## Spotify-playliste
+
+`CreateCopenhellPlaylist.py` opretter/opdaterer en Spotify-playliste kaldet "Copenhell favorites" med de 3 mest populære sange per band fra programmet.
+
+### Afhængigheder
+
+```
+pip3 install spotipy
+```
+
+### Credentials
+
+Scriptet bruger hardcodede Spotify API-credentials (Client ID + Secret). Disse er oprettet på [developer.spotify.com](https://developer.spotify.com/dashboard) og hører til en privat app. **Repositoriet skal forblive privat** da credentials ligger i koden.
+
+### Spotify-app konfiguration
+
+- Redirect URI: `http://127.0.0.1:8888/callback`
+- Scopes: `playlist-read-private`, `playlist-modify-private`, `playlist-modify-public`
+- APIs used: Web API
+- Brugerens Spotify-email skal tilføjes under User Management i dashboardet
+
+### Auth-flow (første gang / efter token-udløb)
+
+Spotipy kan ikke åbne browser interaktivt fra Claude Code. Kør i stedet:
+
+1. Generer auth-URL og åbn den i browseren — spotipy printer den hvis `open_browser=False` sættes
+2. Log ind på Spotify og godkend
+3. Paste redirect-URL'en (`http://127.0.0.1:8888/callback?code=...`) tilbage
+4. Token caches i `.cache` (ikke i git)
+
+Efterfølgende kørsler bruger det cachede token automatisk.
+
+### Kør scriptet
+
+```
+python3 CreateCopenhellPlaylist.py
+```
+
+### Kendte begrænsninger (Spotify Development Mode)
+
+- `POST /v1/users/{id}/playlists` returnerer 403 — brug `/me/playlists` i stedet (allerede implementeret)
+- `GET /artists/{id}/top-tracks` er blokeret — scriptet bruger søgning + popularitetssortering i stedet
+- `search`-endpointet i spotipy sender ugyldige parametre — scriptet kalder API'et direkte med `requests`
+
 ## Program
 
 ### Onsdag 24. juni
