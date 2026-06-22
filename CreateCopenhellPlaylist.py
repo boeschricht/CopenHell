@@ -46,9 +46,10 @@ def get_or_create_playlist(sp, user_id):
 
 
 def get_top_track_uris(token, band_name):
+    search_name = band_name.replace(".", "")
     r = requests.get(
         "https://api.spotify.com/v1/search",
-        params={"q": f"artist:{band_name}", "type": "track", "limit": 10},
+        params={"q": f"artist:{search_name}", "type": "track", "limit": 10},
         headers={"Authorization": f"Bearer {token}"},
     )
     r.raise_for_status()
